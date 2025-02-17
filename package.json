@@ -1,0 +1,10 @@
+{
+  "name": "hakudevtw-monorepo",
+  "version": "0.0.0",
+  "description": "",
+  "scripts": {},
+  "engines": {
+    "node": ">=18"
+  },
+  "packageManager": "pnpm@10.4.0"
+}
