@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { DesignSystemProvider } from "@repo/design-system";
 import { fonts } from "@repo/design-system/lib/fonts";
 import "@repo/design-system/styles/globals.css";
 
@@ -13,8 +14,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={fonts}>{children}</body>
+    <html lang="en" className={fonts} suppressHydrationWarning>
+      <body>
+        <DesignSystemProvider>{children}</DesignSystemProvider>
+      </body>
     </html>
   );
 }

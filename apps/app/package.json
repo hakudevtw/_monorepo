@@ -8,6 +8,7 @@
     "start": "next start",
     "analyze": "ANALYZE=true pnpm build",
     "lint": "next lint",
+    "lint:fix": "next lint --fix",
     "clean": "git clean -xdf .cache .turbo dist node_modules",
     "typecheck": "tsc --noEmit --emitDeclarationOnly false"
   },
