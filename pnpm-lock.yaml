@@ -14,6 +14,9 @@ importers:
       '@types/node':
         specifier: ^22.13.4
         version: 22.13.4
+      turborepo:
+        specifier: ^0.0.1
+        version: 0.0.1
       typescript:
         specifier: ^5.7.3
         version: 5.7.3
@@ -24,6 +27,9 @@ packages:
 
   '@types/node@22.13.4':
     resolution: {integrity: sha512-ywP2X0DYtX3y08eFVx5fNIw7/uIv8hYUKgXoK8oayJlLnKcRfEYCxWMVE1XagUdVtCJlZT1AU4LXEABW+L1Peg==}
+
+  turborepo@0.0.1:
+    resolution: {integrity: sha512-x+4Q9iy252nr6zuU/TvQIF4na8OVLe2pBTwTJKA/aTPzdR4W8q0uhEj/U69G09IznNDjMg8jXG2nm9gan4KQ1g==}
 
   typescript@5.7.3:
     resolution: {integrity: sha512-84MVSjMEHP+FQRPy3pX9sTVV/INIex71s9TL2Gm5FG/WG1SqXeKyZ0k7/blY/4FdOzI12CBy1vGc4og/eus0fw==}
@@ -38,6 +44,8 @@ snapshots:
   '@types/node@22.13.4':
     dependencies:
       undici-types: 6.20.0
+
+  turborepo@0.0.1: {}
 
   typescript@5.7.3: {}
 
